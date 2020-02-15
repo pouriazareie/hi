@@ -1,0 +1,7 @@
+javascript:void(document.oncontextmenu=null);
+
+var element = document.getElementById("topcmm-123flashchat-main-message-input");
+element.oncopy= true;
+element.onpaste= true;
+element.oncut= true;
+element.onselect=true;
